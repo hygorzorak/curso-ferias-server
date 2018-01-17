@@ -1,0 +1,12 @@
+{
+  "name": "curso-ferias-server",
+  "version": "0.0.1",
+  "author": "Zorak",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch ./db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}
