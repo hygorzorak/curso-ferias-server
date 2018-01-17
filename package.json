@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "author": "Zorak",
   "private": true,
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch ./db.json"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.12.1"
