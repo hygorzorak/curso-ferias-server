@@ -1,181 +1,29 @@
 {
-  "usuario": [
+  "todos": [
     {
       "id": "1",
-      "nome": "Hygor",
-      "email": "hygor.zorak@matera.com",
-      "login": "hygor",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
+      "title": "Todo 1",
+      "body": "Description of the task"
     },
     {
       "id": "2",
-      "nome": "Flavia",
-      "email": "flavia.domingues@matera.com",
-      "login": "flavia",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
+      "title": "Todo 2",
+      "body": "Description of the task"
     },
     {
       "id": "3",
-      "nome": "Alex",
-      "email": "email@email.com",
-      "login": "alex",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
+      "title": "Todo 3",
+      "body": "Description of the task"
     },
     {
       "id": "4",
-      "nome": "Bruno",
-      "email": "email@email.com",
-      "login": "bruno",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
+      "title": "Todo 4",
+      "body": "Description of the task"
     },
     {
       "id": "5",
-      "nome": "Eduardo",
-      "email": "email@email.com",
-      "login": "eduardo",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "6",
-      "nome": "Jenifer",
-      "email": "email@email.com",
-      "login": "jenifer",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "7",
-      "nome": "Joao",
-      "email": "email@email.com",
-      "login": "joao",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "8",
-      "nome": "Julio",
-      "email": "email@email.com",
-      "login": "julio",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "9",
-      "nome": "Leonardo",
-      "email": "email@email.com",
-      "login": "leonardo",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "10",
-      "nome": "Peterson",
-      "email": "email@email.com",
-      "login": "peterson",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "11",
-      "nome": "Rafael",
-      "email": "email@email.com",
-      "login": "rafael",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "12",
-      "nome": "Raphael",
-      "email": "email@email.com",
-      "login": "raphael",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "13",
-      "nome": "Richard",
-      "email": "email@email.com",
-      "login": "richard",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "14",
-      "nome": "Sergio",
-      "email": "email@email.com",
-      "login": "sergio",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    },
-    {
-      "id": "15",
-      "nome": "Gustavo",
-      "email": "email@email.com",
-      "login": "gustavo",
-      "senha": "123456",
-      "perfil": "ALUNO",
-      "urlFoto": "assets/imgs/avatar/default.png"
-    }
-  ],
-  "disciplina": [
-    {
-      "id": "1",
-      "descricao": "Angular",
-      "instrutores": ["1", "2"],
-      "dataInicio": "2018/01/22",
-      "dataTermino": "2018/02/02",
-      "segmento": "Front-end",
-      "urlLogo": null
-    },
-    {
-      "id": "2",
-      "descricao": "Ionic",
-      "instrutores": ["1", "2"],
-      "dataInicio": "2018/01/22",
-      "dataTermino": "2018/02/02",
-      "segmento": "Mobile",
-      "urlLogo": null
-    },
-    {
-      "id": "3",
-      "descricao": "Java",
-      "instrutores": ["1", "2"],
-      "dataInicio": "2018/01/22",
-      "dataTermino": "2018/02/02",
-      "segmento": "Backend",
-      "urlLogo": null
-    }
-  ],
-  "presenca": [
-    {
-      "dia": "2017/01/22",
-      "disciplina": "2",
-      "usuario": "1"
-    }
-  ],
-  "config": [
-    {
-      "usuario": "1",
-      "notificacao": false
+      "title": "Todo 5",
+      "body": "Description of the task"
     }
   ]
 }
