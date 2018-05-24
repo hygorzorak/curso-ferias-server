@@ -32,5 +32,23 @@
       "name": "hygor",
       "times": 10
     }
+  ],
+  "routes": [
+    {
+      "path": "/tabela-precos",
+      "component": "CompleteTable"
+    },
+    {
+      "path": "/reajustes",
+      "component": "ReadjustmentHistoric"
+    },
+    {
+      "path": "/demonstrativo-pagamento",
+      "component": "Demonstrative"
+    },
+    {
+      "path": "/importar-arquivo",
+      "component": "FileImport"
+    }
   ]
 }
