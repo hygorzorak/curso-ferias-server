@@ -1,250 +1,29 @@
 {
-  "todos": [
-    {
-      "id": "1",
-      "title": "Todo 1",
-      "body": "Description of the task"
-    },
-    {
-      "id": "2",
-      "title": "Todo 2",
-      "body": "Description of the task"
-    },
-    {
-      "id": "3",
-      "title": "Todo 3",
-      "body": "Description of the task"
-    },
-    {
-      "id": "4",
-      "title": "Todo 4",
-      "body": "Description of the task"
-    },
-    {
-      "id": "5",
-      "title": "Todo 5",
-      "body": "Description of the task"
+  "user": [{
+    "id": 1,
+    "name": "User",
+    "username": "user@email.com",
+    "password": "123456",
+    "wallet": {
+      "real": "75,000.00",
+      "bitcoin": "1",
+      "brita": "0"
     }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "name": "hygor",
-      "times": 10
+  }],
+  "operations": [{
+    "id": 0,
+    "userId": 1,
+    "type": "BUY",
+    "date": "2018/08/20",
+    "coin": {
+      "output": {
+        "format": "real",
+        "value": "25,000.00"
+      },
+      "input": {
+        "format": "bitcoin",
+        "value": "1"
+      }
     }
-  ],
-  "routes": [
-    {
-      "rota": "/tabela-precos",
-      "componente": "CompleteTable"
-    },
-    {
-      "rota": "/reajustes",
-      "componente": "ReadjustmentHistoric"
-    },
-    {
-      "rota": "/demonstrativo-pagamento",
-      "componente": "Demonstrative"
-    },
-    {
-      "rota": "/resolucao-normativa",
-      "componente": "NormativesResolutions"
-    },
-    {
-      "rota": "/incluir-titulares",
-      "componente": "IncludeHolders"
-    },
-    {
-      "rota": "/incluir-dependentes",
-      "componente": "IncludeDependentsWrapper"
-    },
-    {
-      "rota": "/consultar-beneficiarios",
-      "componente": "QueryBeneficiaries"
-    },
-    {
-      "rota": "/consultar-solicitacoes",
-      "componente": "Requests"
-    },
-    {
-      "rota": "/cancelar-solicitacoes",
-      "componente": "CancelRequestsWrapper"
-    },
-    {
-      "rota": "/consultar-autorizacoes",
-      "componente": "QueryAuthorizations"
-    },
-    {
-      "rota": "/excluir-beneficiarios",
-      "componente": "DeleteBeneficiaryWrapper"
-    },
-    {
-      "rota": "/troca-plano",
-      "componente": "PlanExchangeWrapper"
-    },
-    {
-      "rota": "/alteracao-cadastral",
-      "componente": "EditBeneficiaryWrapper"
-    },
-    {
-      "rota": "/pendencias-cadastrais",
-      "componente": "RegistrationPendencies"
-    },
-    {
-      "rota": "/arquivo-correcoes",
-      "componente": "FileCorrections"
-    },
-    {
-      "rota": "/registrar-solicitacoes",
-      "componente": "RegisterRequests"
-    },
-    {
-      "rota": "/cancelar-solicitacoes",
-      "componente": "CancelRequestsWrapper"
-    },
-    {
-      "rota": "/boletos",
-      "componente": "BankSlip"
-    },
-    {
-      "rota": "/debito-automatico",
-      "componente": "AutomaticDebit"
-    },
-    {
-      "rota": "/informacoes-contratuais",
-      "componente": "ContractualInformation"
-    },
-    {
-      "rota": "/precos-planos",
-      "componente": "PlansPrice"
-    },
-    {
-      "rota": "/consultar-faturas-emitidas",
-      "componente": "IssuedInvoices"
-    },
-    {
-      "rota": "/demonstrativo-analitico-faturamento",
-      "componente": "AnalyticalBillingStatement"
-    },
-    {
-      "rota": "/importar-arquivo",
-      "componente": "FileImport"
-    },
-    {
-      "rota": "/consultar-situacao-movimentacao",
-      "componente": "MovementSituation"
-    },
-    {
-      "rota": "/enviar-movimentacao-operadora",
-      "componente": "SendMovementOperator"
-    },
-    {
-      "rota": "/consultar-importacao-arquivo",
-      "componente": "FileImportConsult"
-    },
-    {
-      "rota": "/calculo-multas-taxas-faturas-vencidas",
-      "componente": "ExpiredInvoicesTaxes"
-    },
-    {
-      "rota": "/demonstrativo-de-coparticipacao",
-      "componente": "StatementOfCoParticipation"
-    },
-    {
-      "rota": "/demonstrativo-coparticipacao",
-      "componente": "CoparticipationStatement"
-    },
-    {
-      "rota": "/solicitacao-arquivos",
-      "componente": "FilesRequest"
-    },
-    {
-      "rota": "/download-arquivos",
-      "componente": "FilesDownload"
-    },
-    {
-      "rota": "/demonstrativo-movimentacao-beneficiarios",
-      "componente": "StatementBeneficiaryTransactions"
-    },
-    {
-      "rota": "/aposentados-e-demitidos",
-      "componente": "RetiredAndDismissed"
-    },
-    {
-      "rota": "/demonstrativo-custo-operacional",
-      "componente": "OperatingCostStatement"
-    },
-    {
-      "rota": "/informacoes-reembolso",
-      "componente": "RefundInformation"
-    },
-    {
-      "rota": "/situacao-dos-anexos",
-      "componente": "AttachmentsStatus"
-    },
-    {
-      "rota": "/enviar-anexos-para-operadora",
-      "componente": "SendAttchmentsToOperator"
-    },
-    {
-      "rota": "/demonstrativo-aditivos",
-      "componente": "AdditiveDemo"
-    },
-    {
-      "rota": "/demonstrativo-beneficiarios-ativos",
-      "componente": "ActiveBeneficiariesDemo"
-    },
-    {
-      "rota": "/demonstrativo-reembolso-medico",
-      "componente": "QueryMedicalRefund"
-    },
-    {
-      "rota": "/transferencia-entre-filiais",
-      "componente": "InterBranchTransfer"
-    },
-    {
-      "rota": "/novos-anexos",
-      "componente": "NewAdministrativesAttachments"
-    },
-    {
-      "rota": "/gestao-beneficiarios-declaracao-permanencia",
-      "componente": "BeneficiaryPermanenceDeclaration"
-    },
-    {
-      "rota": "/boleto-beneficiario",
-      "componente": "BeneficiaryBankSlip"
-    },
-    {
-      "rota": "/demonstrativo-reajuste-rn389",
-      "componente": "RN389AdjustmentDemo"
-    },
-    {
-      "rota": "/demonstrativo-troca-faixa-etaria",
-      "componente": "AgeRangeChangeDemo"
-    },
-    {
-      "rota": "/declaracao-pagamento",
-      "componente": "StatementPayment"
-    },
-    {
-      "rota": "/declaracao-de-reembolso-ir",
-      "componente": "IncomeTaxRefundDeclaration"
-    },
-    {
-      "rota": "/declaracao-ir",
-      "componente": "IncomeTaxDeclaration"
-    },
-    {
-      "rota": "/consultar-lotes",
-      "componente": "BatchCosult"
-    },
-    {
-      "rota": "/fila-de-execucao/:idJob",
-      "componente": "ExecutionQueue"
-    },
-    {
-      "rota": "/alterar-mes-referencia",
-      "componente": "AlterReferenceMonth"
-    }
-  ]
+  }]
 }
