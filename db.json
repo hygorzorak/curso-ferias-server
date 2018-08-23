@@ -1,29 +1,56 @@
 {
-  "user": [{
-    "id": 1,
-    "name": "User",
-    "username": "user@email.com",
-    "password": "123456",
-    "wallet": {
-      "real": "75,000.00",
-      "bitcoin": "1",
-      "brita": "0"
-    }
-  }],
-  "operations": [{
-    "id": 0,
-    "userId": 1,
-    "type": "BUY",
-    "date": "2018/08/20",
-    "coin": {
-      "output": {
-        "format": "real",
-        "value": "25,000.00"
-      },
-      "input": {
-        "format": "bitcoin",
-        "value": "1"
+  "user": [
+    {
+      "id": 1,
+      "name": "User",
+      "username": "user@email.com",
+      "password": "123456",
+      "wallet": {
+        "real": "100,000.00",
+        "bitcoin": "0",
+        "brita": "0"
       }
     }
-  }]
+  ],
+  "operations": [
+    {
+      "id": 0,
+      "userId": 1,
+      "type": "BUY",
+      "date": "2018/08/20",
+      "coin": {
+        "output": {
+          "format": "real",
+          "value": "25,000.00"
+        },
+        "input": {
+          "format": "bitcoin",
+          "value": "1"
+        }
+      }
+    }
+  ],
+  "products": [
+    {
+      "title": "Insights",
+      "description": "The best ecommerce overview in Latin America",
+      "price": "89,90",
+      "icon": "https://cdn0.iconfinder.com/data/icons/education-8/512/Books-512.png",
+      "backgroundIcon": "#ec7063"
+    },
+    {
+      "title": "Aliexpress",
+      "description": "Pratical guide for to do excellent purchases in Aliexpress ",
+      "price": "89,90",
+      "icon": "https://cdn0.iconfinder.com/data/icons/education-8/512/Books-512.png",
+      "backgroundIcon": "#ffe57c"
+    },
+    {
+      "title": "Clothes sizes",
+      "description": "Complete guide about clothes sizes from China",
+      "price": "89,90",
+      "icon": "https://cdn0.iconfinder.com/data/icons/education-8/512/Books-512.png",
+      "backgroundIcon": "#f9a9be"
+    }
+  ]
 }
