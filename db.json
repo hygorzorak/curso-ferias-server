@@ -6,9 +6,9 @@
       "username": "user@email.com",
       "password": "123456",
       "wallet": {
-        "real": "100,000.00",
-        "bitcoin": "0",
-        "brita": "0"
+        "real": 100000,
+        "bitcoin": 0,
+        "brita": 0
       }
     }
   ],
