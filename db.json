@@ -53,39 +53,106 @@
       "backgroundIcon": "#f9a9be"
     }
   ],
-  "personio": [
-    {
-      "Jonas": {
-        "position": "CTO",
-        "employees": [
-          {
-            "Sophie": {
-              "position": "VP Engineering",
-              "employees": [
-                {
-                  "Nick": {
-                    "position": "Team Lead",
-                    "employees": [
-                      {
-                        "Pete": {
-                          "position": "Backend Engineer",
-                          "employees": []
-                        }
-                      },
-                      {
-                        "Barbara": {
-                          "position": "Fronted Engineer",
-                          "employees": []
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        ]
+  "treino": {
+    "A": [
+      {
+        "id": "1",
+        "name": "Supino Reto Barra",
+        "series": "3 x 12",
+        "img": "1.png"
+      },
+      {
+        "id": "2",
+        "name": "Desenvolvimento Máquina",
+        "series": "3 x 12",
+        "img": "2.png"
+      },
+      {
+        "id": "3",
+        "name": "Remada Máquina Fechada",
+        "series": "3 x 12",
+        "img": "3.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Peck Deck Inverso",
+        "series": "3 x 12",
+        "img": "4.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Rosca Direta Barra Reta",
+        "series": "3 x 12",
+        "img": "5.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Tríceps Polia Corda",
+        "series": "3 x 12",
+        "img": "6.jpg"
+      },
+      {
+        "id": "7",
+        "name": "ABS Máquina",
+        "series": "3 x 15",
+        "img": ""
+      },
+      {
+        "id": "8",
+        "name": "ABS Infra Solo",
+        "series": "3 x 15",
+        "img": ""
       }
-    }
-  ]
+    ],
+    "B": [
+      {
+        "id": "9",
+        "name": "Leg Press Horizontal",
+        "series": "3 x 12",
+        "img": "9.jpg"
+      },
+      {
+        "id": "10",
+        "name": "Cadeira Extensora",
+        "series": "3 x 12",
+        "img": "10.jpeg"
+      },
+      {
+        "id": "11",
+        "name": "Glúteo Máquina",
+        "series": "3 x 12",
+        "img": ""
+      },
+      {
+        "id": "12",
+        "name": "Mesa Flexora",
+        "series": "3 x 12",
+        "img": "12.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Cadeira Abdutora",
+        "series": "3 x 12",
+        "img": "13.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Gêmeos Leg Press Horizontal",
+        "series": "3 x 15",
+        "img": "14.jpg"
+      },
+      {
+        "id": "15",
+        "name": "Gêmeos Sentado",
+        "series": "3 x 15",
+        "img": "15.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Lombar Banco Dorsal",
+        "series": "3 x 15",
+        "img": "16.jpg"
+      }
+    ]
+  }
 }
